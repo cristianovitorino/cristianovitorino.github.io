@@ -1,0 +1,52 @@
+body {
+    padding: 4%;
+}
+
+.name {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.description {
+    font-family: 'Noto Sans', sans-serif;
+    position:relative;
+    top: 40%;
+    left: 5%;
+}
+
+body {
+    background-color: #F9FBF2;
+}
+
+.home {
+    font-weight: 200;
+}
+
+.vd {
+    font-size: 16px;
+}
+
+.ulb {
+    font-size: 14px;
+}
+
+.gd {
+    font-size: 12px;
+}
+
+#photo {
+    float: left;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 1%;
+    background-color: lightcoral;
+}
+
+.image-container {
+    height: 220px;
+    position: relative;
+}
+
+ul li:nth-child(odd) {
+    color: lightcoral;
+}

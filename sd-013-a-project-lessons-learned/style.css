@@ -1,0 +1,132 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Open Sans, sans-serif;
+}
+
+/* -HEADER---------------- */
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0.4%;
+  color: white;
+  background-color: rgb(26, 30, 53);
+  font-size: 12px;
+}
+
+#titulo {
+  position: relative;
+  padding: 0.4%;
+  margin: auto;
+  text-align: center;
+}
+
+#navegacao {
+  position: relative;
+  padding: 0.4%;
+  margin: auto;
+  text-align: center;
+}
+
+#a1 , #a2 , #a3 , #a4 {
+  padding: 0.4%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  text-align: center;
+  color: white;
+  background-color: rgb(26, 30, 53);
+}
+
+/* -PHOTO----------------- */
+#minha_foto {
+  border-radius: 100%;
+  margin-top: 5%;
+  width: 200px;
+}
+
+/* -PROFILE-CONTENT------- */
+.container-perfil {
+  width: 100%;
+  margin-top: 75px;
+  margin-bottom: 1px;
+  display: inline-block;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.perfil {
+  float: left;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+
+.pilula {
+  width: 200px;
+  padding: 2%;
+  margin: 1%;
+  float: right;
+  text-align: center;
+  color: rgb(177, 181, 201);
+  background-color: rgb(26, 30, 53);
+}
+
+/* -TABLE----------------- */
+table , th , td {
+  border: 1px solid rgb(26, 30, 53);
+  border-collapse: collapse;
+  width: 30%;
+  text-align: center;
+}
+
+#tabela tr:nth-child( odd ) {
+  background-color: rgb(26, 30, 53);
+  color: white;
+}
+
+/* -MAIN-CONTENT---------- */
+.container-principal {
+  width: 100%;
+  margin-bottom: 1px;
+  display: inline-block;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.lado-esquerdo {
+  width: 623px;
+  padding: 1%;
+  border: 2px solid black;
+  margin-left: 1%;
+  float: left;
+  line-height: 1.5;
+}
+
+.lado-direito {
+  display: inline;
+  width: 623px;
+  float: right;
+}
+
+.lista-1 {
+  float: left;
+  padding: 1.5%;
+  margin-left: 11%;
+}
+
+.lista-2 {
+  float: right;
+  padding: 1.5%;
+  margin-right: 11%;
+}
+
+/* -FOOTER---------------- */
+#rodape {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 2px;
+  font-size: 12px;
+}
